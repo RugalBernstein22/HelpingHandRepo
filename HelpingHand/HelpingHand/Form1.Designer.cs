@@ -44,6 +44,7 @@
             this.companies1 = new HelpingHand.Companies();
             this.mySecondCustmControl1 = new HelpingHand.MySecondCustmControl();
             this.firstCustomControl1 = new HelpingHand.FirstCustomControl();
+            this.button4 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -52,6 +53,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
+            this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.SidePanel);
             this.panel1.Controls.Add(this.button7);
             this.panel1.Controls.Add(this.button3);
@@ -82,7 +84,7 @@
             this.button7.ForeColor = System.Drawing.Color.White;
             this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
             this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.Location = new System.Drawing.Point(18, 804);
+            this.button7.Location = new System.Drawing.Point(18, 708);
             this.button7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(296, 82);
@@ -203,6 +205,7 @@
             this.button13.TabIndex = 4;
             this.button13.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // settings2
             // 
@@ -235,6 +238,23 @@
             this.firstCustomControl1.Name = "firstCustomControl1";
             this.firstCustomControl1.Size = new System.Drawing.Size(1221, 803);
             this.firstCustomControl1.TabIndex = 5;
+            // 
+            // button4
+            // 
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.Location = new System.Drawing.Point(18, 800);
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(296, 82);
+            this.button4.TabIndex = 5;
+            this.button4.Text = "       Sign Out";
+            this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button4.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -279,6 +299,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private Companies companies1;
         private Settings settings2;
+        private System.Windows.Forms.Button button4;
     }
 }
 

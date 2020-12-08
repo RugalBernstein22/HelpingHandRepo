@@ -50,5 +50,10 @@ namespace HelpingHand
             SidePanel.Top = button7.Top;
             settings2.BringToFront();
         }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
