@@ -33,20 +33,22 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(387, 175);
+            this.button1.Location = new System.Drawing.Point(435, 219);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(84, 29);
             this.button1.TabIndex = 0;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // Companies
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.button1);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Companies";
-            this.Size = new System.Drawing.Size(1090, 500);
+            this.Size = new System.Drawing.Size(1221, 803);
             this.ResumeLayout(false);
 
         }

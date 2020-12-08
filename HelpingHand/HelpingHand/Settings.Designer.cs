@@ -32,10 +32,11 @@
             // 
             // Settings
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Settings";
-            this.Size = new System.Drawing.Size(1090, 500);
+            this.Size = new System.Drawing.Size(1221, 803);
             this.Load += new System.EventHandler(this.Settings_Load);
             this.ResumeLayout(false);
 
